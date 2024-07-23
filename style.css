@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: beige;
+    margin-top: 400px;
 }
 #yes{
    display: none;
