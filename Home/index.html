@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Do you love mi?</h1>
+    <input type="radio" namw="radio1" id="radio2">
+    <label for="yes">Breathe for yes</label><br>
+    <input type="radio" name="radio1" id="radio2" disabled>
+    <label for="no">Backflip for no</label>
+
+    <img src="hh.gif" alt="" id="hh">
+    <img src="yes.gif" alt="" id="yes">
+    <img src="bini-ph-bini.gif" alt=""id="no">
+
+    <script>
+        document.getElementById('radio2').addEventListener('click', function() {
+            document.getElementById('hh').style.display = 'block';
+            document.getElementById('yes').style.display = 'block';
+            document.getElementById('no').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
