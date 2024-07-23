@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+#hh, #yes, #no {
+    display: none;
+    width: 100px;
+    height: auto;
+}
+#hh {
+    margin: auto;
+}
